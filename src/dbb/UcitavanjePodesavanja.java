@@ -33,6 +33,7 @@ public class UcitavanjePodesavanja {
     
 
     private void ucitajProperties() throws FileNotFoundException, IOException {
+        // ucitavanje iz fajla
         fis = new FileInputStream("settings.properties");
         properties = new Properties();
         properties.load(fis);
